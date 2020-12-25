@@ -27,12 +27,6 @@
   to = "https://openpgpkey.protonmail.ch/.well-known/openpgpkey/d-d.me/hu/:splat"
   status = 200
 
-## This rule redirects to an external API, signing requests with a secret
-[[redirects]]
-  from = "*"
-  to = "http://d-d.me"
-  status = 301
-
 # If skip_processing = true, all other settings are ignored
 [build.processing]
   skip_processing = true
