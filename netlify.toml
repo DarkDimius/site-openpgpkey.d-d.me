@@ -8,7 +8,7 @@
   # Default build command.
   command = "echo 'no build steps'"
 
-# The following redirect will forward request to protonmail WKD without giving the client redirect. 
+# The following redirect will forward request to protonmail WKD and serve that response to client
 [[redirects]]
   from = "/.well-known/openpgpkey/d-d.me/hu/*"
   to = "https://openpgpkey.protonmail.ch/.well-known/openpgpkey/d-d.me/hu/:splat"
